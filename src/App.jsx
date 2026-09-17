@@ -42,7 +42,10 @@ function App() {
   return (
     <div>
 
-      {/* Navigation */}
+      {/* ================================
+          NAVIGATION
+      ================================= */}
+
       <nav>
         <h2>Rutuja Kusalkar</h2>
 
@@ -90,7 +93,10 @@ function App() {
       </nav>
 
 
-      {/* Home */}
+      {/* ================================
+          HOME
+      ================================= */}
+
       <section id="home">
 
         <img
@@ -107,10 +113,11 @@ function App() {
 
         <p>
           SQL | Excel | Power BI | Python | Data Visualization
-          <p className="hero-description">
-            Turning data into meaningful insights through analysis,
-            visualization, and business intelligence.
-          </p>
+        </p>
+
+        <p className="hero-description">
+          Turning data into meaningful insights through analysis,
+          visualization, and business intelligence.
         </p>
 
         <div className="hero-buttons">
@@ -158,7 +165,10 @@ function App() {
       </section>
 
 
-      {/* About */}
+      {/* ================================
+          ABOUT
+      ================================= */}
+
       <section id="about">
 
         <h2>About Me</h2>
@@ -177,7 +187,10 @@ function App() {
       </section>
 
 
-      {/* Skills */}
+      {/* ================================
+          SKILLS
+      ================================= */}
+
       <section id="skills">
 
         <h2>My Skills</h2>
@@ -196,7 +209,10 @@ function App() {
       </section>
 
 
-      {/* Projects */}
+      {/* ================================
+          PROJECTS
+      ================================= */}
+
       <section id="projects">
 
         <h2>My Projects</h2>
@@ -204,7 +220,10 @@ function App() {
         <div className="project-grid">
 
 
-          {/* Project 1 */}
+          {/* ================================
+              PROJECT 1
+          ================================= */}
+
           <article className="project-card">
 
             <img
@@ -239,7 +258,10 @@ function App() {
           </article>
 
 
-          {/* Project 2 */}
+          {/* ================================
+              PROJECT 2
+          ================================= */}
+
           <article className="project-card">
 
             <div className="project-icon">💻</div>
@@ -271,7 +293,10 @@ function App() {
           </article>
 
 
-          {/* Project 3 */}
+          {/* ================================
+              PROJECT 3
+          ================================= */}
+
           <article className="project-card">
 
             <div className="project-icon">🏥</div>
@@ -303,7 +328,10 @@ function App() {
           </article>
 
 
-          {/* Project 4 */}
+          {/* ================================
+              PROJECT 4
+          ================================= */}
+
           <article className="project-card">
 
             <div className="project-icon">📈</div>
@@ -334,12 +362,52 @@ function App() {
 
           </article>
 
+
+          {/* ================================
+              PROJECT 5 - NEW
+          ================================= */}
+
+          <article className="project-card">
+
+            <div className="project-icon">📊</div>
+
+            <h3>Sales & Customer Analytics</h3>
+
+            <p>
+              SQL-based sales and customer analytics project using Microsoft
+              SQL Server to analyze revenue, customer behavior, product
+              performance, monthly sales trends, and business KPIs.
+            </p>
+
+            <div className="tech-stack">
+              <span>SQL Server</span>
+              <span>Advanced SQL</span>
+              <span>CTEs</span>
+              <span>Window Functions</span>
+              <span>Business Analytics</span>
+            </div>
+
+            <a
+              href="https://github.com/rutuj-ja/Sales-Analytics-SQL-Project"
+              target="_blank"
+              rel="noreferrer"
+              className="github-btn"
+            >
+              View on GitHub →
+            </a>
+
+          </article>
+
+
         </div>
 
       </section>
 
 
-      {/* Contact */}
+      {/* ================================
+          CONTACT
+      ================================= */}
+
       <section id="contact">
 
         <h2>Let's Connect</h2>
@@ -375,7 +443,10 @@ function App() {
       </section>
 
 
-      {/* Footer */}
+      {/* ================================
+          FOOTER
+      ================================= */}
+
       <footer>
 
         <p>
