@@ -391,9 +391,11 @@ function App() {
           © 2026 Rutuja Kusalkar | Fresher Data Analyst
         </p>
       </footer>
+         </footer>
     </div>
   );
 }
 
-export default App;
-```
+const PortfolioApp = App;
+
+export default PortfolioApp;
