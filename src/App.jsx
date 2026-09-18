@@ -1,4 +1,4 @@
-```jsx
+
 import { useEffect, useState } from "react";
 import profileImage from "./assets/rutuja-profile.jpeg";
 import hrDashboard from "./assets/hr-dashboard.png";
@@ -40,7 +40,9 @@ function App() {
 
   return (
     <div>
-      {/* NAVIGATION */}
+      {/* ================================
+          NAVIGATION
+      ================================= */}
 
       <nav>
         <h2>Rutuja Kusalkar</h2>
@@ -88,7 +90,9 @@ function App() {
         </div>
       </nav>
 
-      {/* HOME */}
+      {/* ================================
+          HOME
+      ================================= */}
 
       <section id="home">
         <img
@@ -148,7 +152,9 @@ function App() {
         </div>
       </section>
 
-      {/* ABOUT */}
+      {/* ================================
+          ABOUT
+      ================================= */}
 
       <section id="about">
         <h2>About Me</h2>
@@ -180,7 +186,9 @@ function App() {
         </p>
       </section>
 
-      {/* SKILLS */}
+      {/* ================================
+          SKILLS
+      ================================= */}
 
       <section id="skills">
         <h2>My Skills</h2>
@@ -200,12 +208,17 @@ function App() {
         </div>
       </section>
 
-      {/* PROJECTS */}
+      {/* ================================
+          PROJECTS
+      ================================= */}
 
       <section id="projects">
         <h2>My Projects</h2>
 
         <div className="project-grid">
+
+          {/* PROJECT 1 */}
+
           <article className="project-card">
             <img
               src={hrDashboard}
@@ -237,6 +250,8 @@ function App() {
             </a>
           </article>
 
+          {/* PROJECT 2 */}
+
           <article className="project-card">
             <div className="project-icon">💻</div>
 
@@ -264,6 +279,8 @@ function App() {
               View on GitHub →
             </a>
           </article>
+
+          {/* PROJECT 3 */}
 
           <article className="project-card">
             <div className="project-icon">🏥</div>
@@ -293,6 +310,8 @@ function App() {
             </a>
           </article>
 
+          {/* PROJECT 4 */}
+
           <article className="project-card">
             <div className="project-icon">📈</div>
 
@@ -320,6 +339,8 @@ function App() {
               View on GitHub →
             </a>
           </article>
+
+          {/* PROJECT 5 */}
 
           <article className="project-card">
             <div className="project-icon">📊</div>
@@ -349,10 +370,13 @@ function App() {
               View on GitHub →
             </a>
           </article>
+
         </div>
       </section>
 
-      {/* CONTACT */}
+      {/* ================================
+          CONTACT
+      ================================= */}
 
       <section id="contact">
         <h2>Let's Connect</h2>
@@ -384,18 +408,18 @@ function App() {
         </div>
       </section>
 
-      {/* FOOTER */}
+      {/* ================================
+          FOOTER
+      ================================= */}
 
       <footer>
         <p>
           © 2026 Rutuja Kusalkar | Fresher Data Analyst
         </p>
       </footer>
-         </footer>
     </div>
   );
 }
 
-const PortfolioApp = App;
+export default App;
 
-export default PortfolioApp;
