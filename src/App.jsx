@@ -40,6 +40,7 @@ function App() {
 
   return (
     <div>
+
       {/* ================================
           NAVIGATION
       ================================= */}
@@ -90,11 +91,13 @@ function App() {
         </div>
       </nav>
 
+
       {/* ================================
           HOME
       ================================= */}
 
       <section id="home">
+
         <img
           src={profileImage}
           alt="Rutuja Kusalkar"
@@ -117,7 +120,11 @@ function App() {
         </p>
 
         <div className="hero-buttons">
-          <a href="#projects" className="primary-btn">
+
+          <a
+            href="#projects"
+            className="primary-btn"
+          >
             View My Projects
           </a>
 
@@ -129,9 +136,11 @@ function App() {
           >
             Download Resume
           </a>
+
         </div>
 
         <div className="social-links">
+
           <a
             href="https://www.linkedin.com/in/rutujakusalkar/"
             target="_blank"
@@ -149,14 +158,18 @@ function App() {
           >
             GitHub ↗
           </a>
+
         </div>
+
       </section>
+
 
       {/* ================================
           ABOUT
       ================================= */}
 
       <section id="about">
+
         <h2>About Me</h2>
 
         <p>
@@ -184,16 +197,20 @@ function App() {
           my analytical skills, continue learning, and contribute to
           data-driven decision-making.
         </p>
+
       </section>
+
 
       {/* ================================
           SKILLS
       ================================= */}
 
       <section id="skills">
+
         <h2>My Skills</h2>
 
         <div>
+
           <p>SQL</p>
           <p>Microsoft Excel</p>
           <p>Power BI</p>
@@ -201,25 +218,33 @@ function App() {
           <p>Power Query</p>
           <p>DAX</p>
           <p>Data Cleaning</p>
+          <p>Data Analysis</p>
+          <p>Data Validation</p>
           <p>Data Visualization</p>
           <p>Data Modeling</p>
           <p>KPI Dashboards</p>
           <p>Interactive Reports</p>
+
         </div>
+
       </section>
+
 
       {/* ================================
           PROJECTS
       ================================= */}
 
       <section id="projects">
+
         <h2>My Projects</h2>
 
         <div className="project-grid">
 
+
           {/* PROJECT 1 */}
 
           <article className="project-card">
+
             <img
               src={hrDashboard}
               alt="HR Analytics Dashboard"
@@ -248,11 +273,14 @@ function App() {
             >
               View on GitHub →
             </a>
+
           </article>
+
 
           {/* PROJECT 2 */}
 
           <article className="project-card">
+
             <div className="project-icon">💻</div>
 
             <h3>Human Resources SQL Analytics</h3>
@@ -268,6 +296,7 @@ function App() {
               <span>Advanced SQL</span>
               <span>Window Functions</span>
               <span>Views</span>
+              <span>CTEs</span>
             </div>
 
             <a
@@ -278,11 +307,14 @@ function App() {
             >
               View on GitHub →
             </a>
+
           </article>
+
 
           {/* PROJECT 3 */}
 
           <article className="project-card">
+
             <div className="project-icon">🏥</div>
 
             <h3>Hospital Management System</h3>
@@ -308,11 +340,14 @@ function App() {
             >
               View on GitHub →
             </a>
+
           </article>
+
 
           {/* PROJECT 4 */}
 
           <article className="project-card">
+
             <div className="project-icon">📈</div>
 
             <h3>SQL Sales Database Project</h3>
@@ -338,11 +373,14 @@ function App() {
             >
               View on GitHub →
             </a>
+
           </article>
+
 
           {/* PROJECT 5 */}
 
           <article className="project-card">
+
             <div className="project-icon">📊</div>
 
             <h3>Sales & Customer Analytics</h3>
@@ -369,16 +407,21 @@ function App() {
             >
               View on GitHub →
             </a>
+
           </article>
 
+
         </div>
+
       </section>
+
 
       {/* ================================
           CONTACT
       ================================= */}
 
       <section id="contact">
+
         <h2>Let's Connect</h2>
 
         <p>
@@ -386,9 +429,19 @@ function App() {
         </p>
 
         <div className="contact-links">
-          <a href="mailto:kusalkarrutuja74@gmail.com">
+
+          {/* EMAIL */}
+
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=kusalkarrutuja74@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             📧 Email Me
           </a>
+
+
+          {/* LINKEDIN */}
 
           <a
             href="https://www.linkedin.com/in/rutujakusalkar/"
@@ -398,6 +451,9 @@ function App() {
             LinkedIn ↗
           </a>
 
+
+          {/* GITHUB */}
+
           <a
             href="https://github.com/rutuj-ja"
             target="_blank"
@@ -405,18 +461,24 @@ function App() {
           >
             GitHub ↗
           </a>
+
         </div>
+
       </section>
+
 
       {/* ================================
           FOOTER
       ================================= */}
 
       <footer>
+
         <p>
           © 2026 Rutuja Kusalkar | Fresher Data Analyst
         </p>
+
       </footer>
+
     </div>
   );
 }
