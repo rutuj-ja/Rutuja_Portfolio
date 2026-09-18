@@ -13,7 +13,6 @@ function App() {
 
     const handleScroll = () => {
       const scrollPosition = window.scrollY + 150;
-
       let currentSection = "home";
 
       sections.forEach((section) => {
@@ -28,7 +27,6 @@ function App() {
     };
 
     window.addEventListener("scroll", handleScroll);
-
     handleScroll();
 
     return () => {
@@ -42,10 +40,7 @@ function App() {
 
   return (
     <div>
-
-      {/* ================================
-          NAVIGATION
-      ================================= */}
+      {/* NAVIGATION */}
 
       <nav>
         <h2>Rutuja Kusalkar</h2>
@@ -93,13 +88,9 @@ function App() {
         </div>
       </nav>
 
-
-      {/* ================================
-          HOME
-      ================================= */}
+      {/* HOME */}
 
       <section id="home">
-
         <img
           src={profileImage}
           alt="Rutuja Kusalkar"
@@ -122,11 +113,7 @@ function App() {
         </p>
 
         <div className="hero-buttons">
-
-          <a
-            href="#projects"
-            className="primary-btn"
-          >
+          <a href="#projects" className="primary-btn">
             View My Projects
           </a>
 
@@ -138,11 +125,9 @@ function App() {
           >
             Download Resume
           </a>
-
         </div>
 
         <div className="social-links">
-
           <a
             href="https://www.linkedin.com/in/rutujakusalkar/"
             target="_blank"
@@ -160,31 +145,26 @@ function App() {
           >
             GitHub ↗
           </a>
-
         </div>
-
       </section>
 
-
-      {/* ================================
-          ABOUT
-      ================================= */}
+      {/* ABOUT */}
 
       <section id="about">
-
         <h2>About Me</h2>
 
         <p>
           I am a B.Sc. Computer Science graduate and an entry-level Data Analyst
-          with practical experience in data cleaning, data analysis, data validation,
-          reporting, KPI tracking, dashboard development, and data visualization.
+          with practical experience in data cleaning, data analysis, data
+          validation, reporting, KPI tracking, dashboard development, and data
+          visualization.
         </p>
 
         <p>
-          I work with SQL, Microsoft Excel, Power BI, Power Query, DAX, and Python
-          to transform raw data into meaningful insights. I enjoy identifying trends
-          and patterns, building interactive dashboards, and presenting data in a
-          clear and actionable way.
+          I work with SQL, Microsoft Excel, Power BI, Power Query, DAX, and
+          Python to transform raw data into meaningful insights. I enjoy
+          identifying trends and patterns, building interactive dashboards, and
+          presenting data in a clear and actionable way.
         </p>
 
         <p>
@@ -195,19 +175,14 @@ function App() {
 
         <p>
           I am seeking an entry-level Data Analyst opportunity where I can apply
-          my analytical skills, continue learning, and contribute to data-driven
-          decision-making.
+          my analytical skills, continue learning, and contribute to
+          data-driven decision-making.
         </p>
-
       </section>
 
-
-      {/* ================================
-          SKILLS
-      ================================= */}
+      {/* SKILLS */}
 
       <section id="skills">
-
         <h2>My Skills</h2>
 
         <div>
@@ -223,27 +198,15 @@ function App() {
           <p>KPI Dashboards</p>
           <p>Interactive Reports</p>
         </div>
-
       </section>
 
-
-      {/* ================================
-          PROJECTS
-      ================================= */}
+      {/* PROJECTS */}
 
       <section id="projects">
-
         <h2>My Projects</h2>
 
         <div className="project-grid">
-
-
-          {/* ================================
-              PROJECT 1
-          ================================= */}
-
           <article className="project-card">
-
             <img
               src={hrDashboard}
               alt="HR Analytics Dashboard"
@@ -272,16 +235,9 @@ function App() {
             >
               View on GitHub →
             </a>
-
           </article>
 
-
-          {/* ================================
-              PROJECT 2
-          ================================= */}
-
           <article className="project-card">
-
             <div className="project-icon">💻</div>
 
             <h3>Human Resources SQL Analytics</h3>
@@ -307,16 +263,9 @@ function App() {
             >
               View on GitHub →
             </a>
-
           </article>
 
-
-          {/* ================================
-              PROJECT 3
-          ================================= */}
-
           <article className="project-card">
-
             <div className="project-icon">🏥</div>
 
             <h3>Hospital Management System</h3>
@@ -342,24 +291,17 @@ function App() {
             >
               View on GitHub →
             </a>
-
           </article>
 
-
-          {/* ================================
-              PROJECT 4
-          ================================= */}
-
           <article className="project-card">
-
             <div className="project-icon">📈</div>
 
             <h3>SQL Sales Database Project</h3>
 
             <p>
-              SQL sales database project focused on database design,
-              joins, aggregate functions, subqueries, and analytical
-              queries for sales data.
+              SQL sales database project focused on database design, joins,
+              aggregate functions, subqueries, and analytical queries for
+              sales data.
             </p>
 
             <div className="tech-stack">
@@ -377,16 +319,9 @@ function App() {
             >
               View on GitHub →
             </a>
-
           </article>
 
-
-          {/* ================================
-              PROJECT 5
-          ================================= */}
-
           <article className="project-card">
-
             <div className="project-icon">📊</div>
 
             <h3>Sales & Customer Analytics</h3>
@@ -413,21 +348,13 @@ function App() {
             >
               View on GitHub →
             </a>
-
           </article>
-
-
         </div>
-
       </section>
 
-
-      {/* ================================
-          CONTACT
-      ================================= */}
+      {/* CONTACT */}
 
       <section id="contact">
-
         <h2>Let's Connect</h2>
 
         <p>
@@ -435,7 +362,6 @@ function App() {
         </p>
 
         <div className="contact-links">
-
           <a href="mailto:kusalkarrutuja74@gmail.com">
             📧 Email Me
           </a>
@@ -455,24 +381,16 @@ function App() {
           >
             GitHub ↗
           </a>
-
         </div>
-
       </section>
 
-
-      {/* ================================
-          FOOTER
-      ================================= */}
+      {/* FOOTER */}
 
       <footer>
-
         <p>
           © 2026 Rutuja Kusalkar | Fresher Data Analyst
         </p>
-
       </footer>
-
     </div>
   );
 }
