@@ -1,3 +1,4 @@
+```jsx
 import { useEffect, useState } from "react";
 import profileImage from "./assets/rutuja-profile.jpeg";
 import hrDashboard from "./assets/hr-dashboard.png";
@@ -174,14 +175,28 @@ function App() {
         <h2>About Me</h2>
 
         <p>
-          Recent B.Sc. Computer Science graduate and entry-level Data Analyst
-          with practical experience in data cleaning, data analysis, reporting,
-          KPI tracking, dashboard development, and data visualization.
+          I am a B.Sc. Computer Science graduate and an entry-level Data Analyst
+          with practical experience in data cleaning, data analysis, data validation,
+          reporting, KPI tracking, dashboard development, and data visualization.
         </p>
 
         <p>
-          I enjoy transforming raw data into meaningful insights using SQL,
-          Excel, Power BI, and Python.
+          I work with SQL, Microsoft Excel, Power BI, Power Query, DAX, and Python
+          to transform raw data into meaningful insights. I enjoy identifying trends
+          and patterns, building interactive dashboards, and presenting data in a
+          clear and actionable way.
+        </p>
+
+        <p>
+          I have worked on data analytics projects involving SQL analysis,
+          Power BI dashboards, Excel reporting, data modeling, KPI dashboards,
+          interactive reports, and data visualization.
+        </p>
+
+        <p>
+          I am seeking an entry-level Data Analyst opportunity where I can apply
+          my analytical skills, continue learning, and contribute to data-driven
+          decision-making.
         </p>
 
       </section>
@@ -204,6 +219,9 @@ function App() {
           <p>DAX</p>
           <p>Data Cleaning</p>
           <p>Data Visualization</p>
+          <p>Data Modeling</p>
+          <p>KPI Dashboards</p>
+          <p>Interactive Reports</p>
         </div>
 
       </section>
@@ -364,7 +382,7 @@ function App() {
 
 
           {/* ================================
-              PROJECT 5 - NEW
+              PROJECT 5
           ================================= */}
 
           <article className="project-card">
@@ -460,3 +478,4 @@ function App() {
 }
 
 export default App;
+```
