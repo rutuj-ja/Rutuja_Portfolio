@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import profileImage from "./assets/rutuja-profile.jpeg";
-import hrDashboard from "./assets/hr-dashboard.png";
 
 import "./App.css";
 
@@ -40,7 +39,9 @@ function App() {
   return (
     <div>
 
-      {/* NAVIGATION */}
+      {/* ================================
+          NAVIGATION
+      ================================= */}
 
       <nav>
         <h2>Rutuja Kusalkar</h2>
@@ -89,7 +90,9 @@ function App() {
       </nav>
 
 
-      {/* HOME */}
+      {/* ================================
+          HOME
+      ================================= */}
 
       <section id="home">
 
@@ -159,7 +162,9 @@ function App() {
       </section>
 
 
-      {/* ABOUT */}
+      {/* ================================
+          ABOUT
+      ================================= */}
 
       <section id="about">
 
@@ -194,7 +199,9 @@ function App() {
       </section>
 
 
-      {/* SKILLS */}
+      {/* ================================
+          SKILLS
+      ================================= */}
 
       <section id="skills">
 
@@ -219,7 +226,9 @@ function App() {
       </section>
 
 
-      {/* PROJECTS */}
+      {/* ================================
+          PROJECTS
+      ================================= */}
 
       <section id="projects">
 
@@ -228,17 +237,15 @@ function App() {
         <div className="project-grid">
 
 
-          {/* PROJECT 1 */}
+          {/* ================================
+              PROJECT 1 - HR ANALYTICS
+          ================================= */}
 
           <article className="project-card">
 
-            <img
-              src={hrDashboard}
-              alt="HR Analytics Dashboard"
-              className="project-image"
-            />
+            <div className="project-icon">📊</div>
 
-            <h3>HR Analytics Dashboard</h3>
+            <h3>HR Analytics</h3>
 
             <p>
               Interactive HR analytics dashboard created using Power BI,
@@ -264,7 +271,9 @@ function App() {
           </article>
 
 
-          {/* PROJECT 2 */}
+          {/* ================================
+              PROJECT 2 - HR SQL
+          ================================= */}
 
           <article className="project-card">
 
@@ -298,7 +307,9 @@ function App() {
           </article>
 
 
-          {/* PROJECT 3 */}
+          {/* ================================
+              PROJECT 3 - HOSPITAL
+          ================================= */}
 
           <article className="project-card">
 
@@ -331,7 +342,9 @@ function App() {
           </article>
 
 
-          {/* PROJECT 4 */}
+          {/* ================================
+              PROJECT 4 - SALES DATABASE
+          ================================= */}
 
           <article className="project-card">
 
@@ -364,7 +377,9 @@ function App() {
           </article>
 
 
-          {/* PROJECT 5 */}
+          {/* ================================
+              PROJECT 5 - SALES ANALYTICS
+          ================================= */}
 
           <article className="project-card">
 
@@ -398,7 +413,9 @@ function App() {
           </article>
 
 
-          {/* PROJECT 6 */}
+          {/* ================================
+              PROJECT 6 - COVID-19
+          ================================= */}
 
           <article className="project-card">
 
@@ -435,7 +452,9 @@ function App() {
       </section>
 
 
-      {/* CONTACT */}
+      {/* ================================
+          CONTACT
+      ================================= */}
 
       <section id="contact">
 
@@ -476,7 +495,9 @@ function App() {
       </section>
 
 
-      {/* FOOTER */}
+      {/* ================================
+          FOOTER
+      ================================= */}
 
       <footer>
 
