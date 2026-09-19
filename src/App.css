@@ -1350,3 +1350,48 @@ nav a.active::after {
 
 
 }
+
+/* ================================
+   COVID-19 PROJECT FIX
+================================ */
+
+.project-card {
+  position: relative;
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  color: #111827;
+}
+
+.project-card h3 {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  color: #111827;
+}
+
+.project-card p {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  color: #64748b;
+}
+
+.project-icon {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+  color: #111827;
+}
+
+.tech-stack {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+}
+
+.github-btn {
+  display: inline-block;
+  visibility: visible;
+  opacity: 1;
+}
