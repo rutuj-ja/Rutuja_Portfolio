@@ -4,6 +4,7 @@ import hrDashboard from "./assets/hr-dashboard.png";
 import hospital from "./assets/hospital.png";
 import hrSql from "./assets/hr-sql.png";
 import certificate from "./assets/web-operations-certificate.png";
+
 import "./App.css";
 
 function App() {
@@ -130,6 +131,22 @@ function App() {
       ],
       github:
         "https://github.com/rutuj-ja/COVID-19-Global-Analytics-Dashboard-PowerBI",
+    },
+
+    {
+      title: "Flipkart E-Commerce Analytics Dashboard",
+      category: "Power BI",
+      icon: "🛒",
+      description:
+        "Interactive e-commerce analytics dashboard analyzing sales, profit, orders, customers, products, payment methods, categories, and state-wise performance.",
+      tools: [
+        "Power BI",
+        "Power Query",
+        "DAX",
+        "Data Modeling",
+      ],
+      github:
+        "https://github.com/rutuj-ja/Flipkart-Ecommerce-Analytics-Power-BI",
     },
   ];
 
