@@ -942,6 +942,18 @@ img {
   gap: 25px;
 }
 
+.project-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 20px 25px 0;
+}
+
+.project-icon {
+  font-size: 28px;
+}
+
 .project-card {
   overflow: hidden;
 
@@ -994,10 +1006,9 @@ img {
 }
 
 .project-category {
-  position: absolute;
-
-  top: 15px;
-  left: 15px;
+  position: static;
+  display: inline-flex;
+  align-items: center;
 
   padding: 7px 11px;
 
