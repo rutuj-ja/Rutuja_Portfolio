@@ -298,13 +298,10 @@ img {
 
 .section-description {
   max-width: 650px;
-
   color: var(--text-light);
-
-  margin-top: 15px;
-
+  margin: 15px auto 0;
+  text-align: center;
   opacity: 1;
-
   filter: none;
 }
 
