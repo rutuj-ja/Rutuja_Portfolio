@@ -39,7 +39,6 @@ function App() {
     };
 
     window.addEventListener("scroll", handleScroll);
-
     handleScroll();
 
     return () => {
@@ -259,7 +258,7 @@ function App() {
           <div className="hero-content">
 
             <p className="eyebrow">
-              HELLO, I'M
+              HELLO I'M
             </p>
 
             <h1>
@@ -297,11 +296,7 @@ function App() {
 
             </div>
 
-            {/* SOCIAL ICONS */}
-
             <div className="social-links">
-
-              {/* EMAIL */}
 
               <a
                 href="mailto:kusalkarrutuja74@gmail.com"
@@ -312,8 +307,6 @@ function App() {
                   <path d="M3 5h18v14H3V5zm2 2v.5l7 5 7-5V7l-7 5-7-5z" />
                 </svg>
               </a>
-
-              {/* LINKEDIN */}
 
               <a
                 href="https://www.linkedin.com/in/rutujakusalkar/"
@@ -326,8 +319,6 @@ function App() {
                   <path d="M6.5 8.5A1.5 1.5 0 1 0 6.5 5a1.5 1.5 0 0 0 0 3.5zM5 10h3v9H5v-9zm5 0h2.9v1.23h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.6V19h-3v-4.2c0-1 0-2.3-1.4-2.3s-1.62 1.1-1.62 2.23V19H10v-9z" />
                 </svg>
               </a>
-
-              {/* GITHUB */}
 
               <a
                 href="https://github.com/rutuj-ja"
@@ -344,8 +335,6 @@ function App() {
             </div>
 
           </div>
-
-          {/* PROFILE IMAGE ONLY */}
 
           <div className="hero-image-area">
 
@@ -380,7 +369,7 @@ function App() {
           <div className="section-heading">
 
             <p className="eyebrow">
-              ABOUT ME
+              GET TO KNOW ME
             </p>
 
             <h2>
@@ -597,8 +586,6 @@ function App() {
                 key={project.title}
               >
 
-                {/* PROJECT TOP */}
-
                 <div className="project-top">
 
                   <div className="project-icon">
@@ -610,8 +597,6 @@ function App() {
                   </span>
 
                 </div>
-
-                {/* PROJECT CONTENT */}
 
                 <div className="project-content">
 
@@ -775,8 +760,6 @@ function App() {
 
               <div className="contact-buttons">
 
-                {/* EMAIL */}
-
                 <a
                   href="mailto:kusalkarrutuja74@gmail.com"
                   className="contact-btn"
@@ -787,8 +770,6 @@ function App() {
 
                   Email Me
                 </a>
-
-                {/* LINKEDIN */}
 
                 <a
                   href="https://www.linkedin.com/in/rutujakusalkar/"
@@ -803,8 +784,6 @@ function App() {
                   LinkedIn
                 </a>
 
-                {/* GITHUB */}
-
                 <a
                   href="https://github.com/rutuj-ja"
                   target="_blank"
@@ -812,7 +791,7 @@ function App() {
                   className="contact-btn"
                 >
                   <svg viewBox="0 0 24 24">
-                    <path d="M12 .8A11.2 11.2 0 0 0 8.46 22.6c.56.1.76-.24.76-.54v-2.1c-3.1.67-3.76-1.32-3.76-1.32-.5-1.27-1.22-1.61-1.22-1.61-1-.68.08-.67.08-.67 1.1.08 1.68 1.13 1.68 1.13.98 1.67 2.58 1.19 3.21.91.1-.71.38-1.2.7-1.48-2.47-.28-5.07-1.24-5.07-5.5 0-1.22.44-2.21 1.16-2.99-.12-.28-.5-1.42.11-2.95 0 0 .95-.3 3.1 1.14A10.8 10.8 0 0 1 12 8.3c.96 0 1.93.13 2.84.38 2.14-1.44 3.09-1.14 3.09-1.14.61 1.53.23 2.67.11 2.95.72.78 1.16 1.77 1.16 2.99 0 4.27-2.6 5.21-5.08 5.49.4.35.75 1.03.75 2.08v3.01c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8z" />
+                    <path d="M12 .8A11.2 11.2 0 0 0 8.46 22.6c.56.1.76-.24.76-.54v-2.1c-3.1.67-3.76-1.32-1.22-1.61-1-.68.08-.67.08-.67 1.1.08 1.68 1.13 1.68 1.13.98 1.67 2.58 1.19 3.21.91.1-.71.38-1.2.7-1.48-2.47-.28-5.07-1.24-5.07-5.5 0-1.22.44-2.21 1.16-2.99-.12-.28-.5-1.42.11-2.95 0 0 .95-.3 3.1 1.14A10.8 10.8 0 0 1 12 8.3c.96 0 1.93.13 2.84.38 2.14-1.44 3.09-1.14 3.09-1.14.61 1.53.23 2.67.11 2.95.72.78 1.16 1.77 1.16 2.99 0 4.27-2.6 5.21-5.08 5.49.4.35.75 1.03.75 2.08v3.01c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8z" />
                   </svg>
 
                   GitHub
