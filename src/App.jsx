@@ -571,7 +571,7 @@ function App() {
 
         <div className="section-container">
 
-          <div className="section-heading">
+          <div className="section-heading center">
 
             <p className="eyebrow">
               MY WORK
